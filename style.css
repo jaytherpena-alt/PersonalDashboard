@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes default cell spacing */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    color: #333; /* Darker text color for headers */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+  }
+  
+  tr:hover {
+    background-color: #e6e6e6; /* Hover effect on rows */
+  }
